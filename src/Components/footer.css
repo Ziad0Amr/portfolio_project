@@ -1,0 +1,73 @@
+.footer{
+    background-color: black;
+}
+
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px;
+}
+
+.content-footer .left,
+.content-footer .right{
+    width: 50%;
+    text-align: left;
+}
+
+.content-footer .location,
+.content-footer .phone .cont,
+.content-footer .gmail .cont{
+    display: flex;
+}
+
+.content-footer p{
+    font-size: 19px;
+    margin-bottom: 10px !important;
+}
+
+.content-footer .location .ban{
+    display: block !important;
+}
+
+.content-footer .locat
+{
+    margin-right:10px;
+    font-size: 25px;
+}
+
+.content-footer h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.content-footer .disc{
+    letter-spacing: 1.7px;
+}
+
+.content-footer .links .link{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+@media (max-width:768px){
+    .content-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-footer .left,
+    .content-footer .right{
+        width: 100%;
+        text-align: left;
+    }
+
+    .content-footer .left{
+        margin-bottom: 70px;
+    }
+
+    .content-footer .disc{
+        letter-spacing: 1.7px;
+        width: 100%;
+    }
+}
