@@ -17,7 +17,7 @@ const Navbar=function(){
         <>
             <nav className={color? "navbar navbar-expand-lg navbarcontent navbar-bg" : "navbar navbar-expand-lg navbarcontent"}>
                 <div className="container">
-                    <Link className="navbar-brand" to="/">Portfolio</Link>
+                    <Link className="navbar-brand" to="/portfolio_project/">Portfolio</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -27,13 +27,13 @@ const Navbar=function(){
                         <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to="./project">Project</Link>
+                        <Link className="nav-link" to="/portfolio_project/project">Project</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to="./about">About</Link>
+                        <Link className="nav-link" to="/portfolio_project/about">About</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to="./contact">Contact</Link>
+                        <Link className="nav-link" to="/portfolio_project/contact">Contact</Link>
                         </li>
                     </ul>
                     </div>
